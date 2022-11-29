@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    font-family: "Muli";
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #4682b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a4e6c;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 4px;
+    width: 300px;
+    height: 350px;
+}
+div>h1{
+    margin-bottom: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+} 
+.form-control{
+    display: flex;
+    flex-direction:column-reverse;
+}
+input{
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 1px solid white;
+}
+input:focus{
+    outline: none;
+}
+.btn{
+    color: black;
+    background-color: #add8e6;
+    border-style: none;
+    border-radius: 4px;
+    padding: 15px;
+}
+label{
+   
+    /* display: inline-block; */
+    display: flex;
+    
+}
+span{
+    transition: 0.3s;
+    transform: translateY(0px);
+}
+.spanY{
+    transition: 0.3s;
+    transform:translateY(-20px)
+
+/* .form-control:first-child>label:first-of-type{
+    background-color: rgb(255, 0, 0); */
+} 
+.form-control:nth-child(2)>input{
+}

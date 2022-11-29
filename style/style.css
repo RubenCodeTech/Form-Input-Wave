@@ -21,13 +21,9 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #2a4e6c;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
     border-radius: 4px;
-    width: 300px;
-    height: 350px;
+    width: 380px;
+    height: 430px;
 }
 div>h1{
     margin-bottom: 30px;
@@ -36,20 +32,26 @@ div>h1{
 form{
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 45px;
 } 
+
 .form-control{
     display: flex;
     flex-direction:column-reverse;
 }
+
 input{
     background-color: transparent;
     border-style: none;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid;
+    color: white;
+    width: 300px;
 }
+
 input:focus{
     outline: none;
 }
+
 .btn{
     color: black;
     background-color: #add8e6;
@@ -57,22 +59,26 @@ input:focus{
     border-radius: 4px;
     padding: 15px;
 }
+
 label{
-   
-    /* display: inline-block; */
     display: flex;
-    
+    font-size: 18px; 
 }
+
 span{
-    transition: 0.3s;
+    transition: 0.2s;
     transform: translateY(0px);
 }
-.spanY{
-    transition: 0.3s;
-    transform:translateY(-20px)
 
-/* .form-control:first-child>label:first-of-type{
-    background-color: rgb(255, 0, 0); */
-} 
-.form-control:nth-child(2)>input{
+.spanY{
+    transition: 0.2s;
+    transform:translateY(-20px)
+}
+
+.colorAdd{
+    color: #add8e6;
+}
+
+p>a{
+    color: #add8e6;
 }
